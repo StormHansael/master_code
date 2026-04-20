@@ -1,0 +1,174 @@
+/* @font-face {
+  font-family: "Pixelart";
+  src: url("../../assets/fonts/VCR_OSD_MONO_1.001.ttf") format("truetype");
+}
+*/
+
+body {
+  background-image: url("../../assets/Ground.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.menu_containter {
+    position: absolute;
+    margin: auto;
+    
+    left: 20vw;
+    top: 20vh;
+    height: 100vh;
+    width: 60vw;
+}
+
+.menu_image1 {
+    /* display: inline-block; */
+    position: absolute;
+   
+    
+    /* background-image: url("../../assets/plank111.png"); */
+    
+    left: 320px;
+    width: 100%;
+    height: auto;
+    object-fit:fill;
+    background-repeat: no-repeat;
+}
+.menu_image1 img {
+    height: auto;
+}
+
+h1{
+    top: -10px;
+    left: 20px;
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+} 
+
+.chains1 {
+    position: absolute;
+    height: 20px;
+    width: 6px;
+    z-index: -1;
+    top: 100px;
+    left: 350px;
+    
+}
+.chains1  img, .chains2 img {
+    width: 10px; 
+    height: auto;
+}
+
+.chains2 {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    z-index: -1;
+    top: 70px;
+    left: 750px;
+}
+
+.Longpaper {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 160px;
+    left: 290px;
+}
+
+.main_text{
+    position: absolute;
+    top: 20px;
+    left: 3px;
+    
+    font-size: 24px;
+  
+    width: 90%;
+
+    text-decoration: underline 7px;
+    text-align: center;
+}
+
+.main_text h2:hover {
+    color: #0000EE;
+    text-decoration: #0000EE;
+    cursor: pointer;
+}
+
+
+.one::before {
+  content: "";
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  transform: translateY(-50%);
+
+  width: 25px;
+  height: 25px;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml;utf8,<svg width='157' height='157' viewBox='0 0 157 157' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='78.4889' y='0' width='50' height='50' transform='rotate(45 78.4889 0)' fill='blue'/><rect x='121.622' y='43.1333' width='50' height='50' transform='rotate(45 121.622 43.1333)' fill='black'/><rect x='35.3553' y='43.1333' width='50' height='50' transform='rotate(45 35.3553 43.1333)' fill='black'/><rect x='78.4889' y='86.2671' width='50' height='50' transform='rotate(45 78.4889 86.2671)' fill='black'/></svg>");
+
+}
+
+ .two::before {
+ content: "";
+  position: absolute;
+  left: 50px;
+  top: 125px;
+  transform: translateY(-50%);
+
+  width: 25px;
+  height: 25px;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml;utf8,<svg width='157' height='157' viewBox='0 0 157 157' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='78.4889' y='0' width='50' height='50' transform='rotate(45 78.4889 0)' fill='black'/><rect x='121.622' y='43.1333' width='50' height='50' transform='rotate(45 121.622 43.1333)' fill='blue'/><rect x='35.3553' y='43.1333' width='50' height='50' transform='rotate(45 35.3553 43.1333)' fill='black'/><rect x='78.4889' y='86.2671' width='50' height='50' transform='rotate(45 78.4889 86.2671)' fill='black'/></svg>");
+
+}
+
+.tree::before {
+ content: "";
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  transform: translateY(-50%);
+
+  width: 25px;
+  height: 25px;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml;utf8,<svg width='157' height='157' viewBox='0 0 157 157' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='78.4889' y='0' width='50' height='50' transform='rotate(45 78.4889 0)' fill='black'/><rect x='121.622' y='43.1333' width='50' height='50' transform='rotate(45 121.622 43.1333)' fill='black'/><rect x='35.3553' y='43.1333' width='50' height='50' transform='rotate(45 35.3553 43.1333)' fill='black'/><rect x='78.4889' y='86.2671' width='50' height='50' transform='rotate(45 78.4889 86.2671)' fill='blue'/></svg>");
+}
+
+h2:hover::before {
+  opacity: 1;
+
+}
+/* .spacer {
+    height: 1px;
+    width: 100vw;
+} */

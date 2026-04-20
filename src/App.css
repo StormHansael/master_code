@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Pixelart";
+  src: url("./assets/fonts/VCR_OSD_MONO_1.001.ttf") format("truetype");
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -14,25 +19,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html {
+  margin: 0;
+  background-color: #5fcde4;
+  font-family:"Pixelart", sans-serif;
+  
 }
+
+a:visited {
+  color: black;
+}
+
+
+
