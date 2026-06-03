@@ -59,7 +59,7 @@ export default function QuizPopup({ rockNumber, onClose, onQuizComplete }) {
             {!started && !showResult && (
               <div className="startPage">
                 <h2 className="quizzname">{levelData.title}</h2>
-                <div id="spacer">You clicked rock {rockNumber}</div>
+                <div id="spacer">Level {rockNumber}</div>
                 <button onClick={() => setStarted(true)}>
                   <img src={startbutton} alt="Start quiz" />
                 </button>
